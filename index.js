@@ -1,8 +1,8 @@
 import express from "express";
 import "./db.js";
-import userRoute from "./routes/userRoute.js";
-import productRoute from "./routes/productRoute.js";
-import orderRoute from "./routes/orderRoute.js";
+import userRoute from "./routes/userroute.js";
+import productRoute from "./routes/productroute.js";
+import orderRoute from "./routes/orderroute.js";
 
 const app = express();
 app.use(express.json());
